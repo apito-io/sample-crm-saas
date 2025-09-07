@@ -1,0 +1,10 @@
+{
+  "_id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+  "industry": "Manufacturing",
+  "name": "organization Name",
+  "settings": {
+    "currency": "GBP",
+    "timezone": "GMT"
+  },
+  "system_dashboard_id": "Sample system_dashboard_id for organization"
+}

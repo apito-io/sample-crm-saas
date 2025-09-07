@@ -1,0 +1,10 @@
+{
+  "_id": "390809f6-aa42-458d-96a6-f0ff107d594f",
+  "industry": "Education",
+  "name": "organization Name",
+  "settings": {
+    "currency": "CAD",
+    "timezone": "GMT"
+  },
+  "system_dashboard_id": "Sample system_dashboard_id for organization"
+}

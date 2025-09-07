@@ -1,0 +1,387 @@
+{
+  "022a59c4-cfde-41e0-b325-88b95c8f3cfd": {
+    "deal": {
+      "ids": [
+        "bf692d53-9f4d-4396-8adf-61f8a918030d",
+        "c49e76dd-e9a7-4b95-a207-4297edd8e025"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "660c84af-b04c-4ea0-a129-e880bb6140cd",
+      "relation_type": "has_one"
+    }
+  },
+  "02d9893d-d67e-49b1-b0cc-d50931d1268c": {
+    "deal": {
+      "ids": [
+        "f9a2bae8-6196-4e80-8d67-b96572ab4b57",
+        "c49e76dd-e9a7-4b95-a207-4297edd8e025"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+      "relation_type": "has_one"
+    }
+  },
+  "1d98e97e-7cfe-4d60-99bd-8fd300350084": {
+    "deal": {
+      "ids": [
+        "96acec3e-af9a-4a39-a5a2-9ec34a1f6fe8"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "390809f6-aa42-458d-96a6-f0ff107d594f",
+      "relation_type": "has_one"
+    }
+  },
+  "1f25b212-086f-4b0b-8721-3528554be62d": {
+    "deal": {
+      "ids": [
+        "d9f6d7c9-195b-40b8-9102-16951b8ba962",
+        "c49e76dd-e9a7-4b95-a207-4297edd8e025"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+      "relation_type": "has_one"
+    }
+  },
+  "219fe20e-5b46-477b-bf14-f825f5e228bc": {
+    "deal": {
+      "ids": [
+        "3eb938d0-fe91-41a3-98df-ef4d227c3f42",
+        "fbe3f9c3-a52a-4f02-8154-f66616e04a27"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+      "relation_type": "has_one"
+    }
+  },
+  "24bd12b3-fc60-4050-a069-76182ff00a93": {
+    "deal": {
+      "ids": [
+        "6eaab9d2-66f5-422f-9479-63bdeecdae98",
+        "cc4a15c3-84a8-40fb-98f5-18376684192a"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "ef03c423-41ab-490a-86e5-8aaeb3cce1a1",
+      "relation_type": "has_one"
+    }
+  },
+  "29bffd3d-be76-4ac3-9ed1-2861625ddb1a": {
+    "deal": {
+      "ids": [
+        "360cd668-81a7-4501-b733-ab613e815e98",
+        "fbe3f9c3-a52a-4f02-8154-f66616e04a27"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "c270ab50-a433-46f9-bcad-b91bd23a099d",
+      "relation_type": "has_one"
+    }
+  },
+  "3aff22eb-b83e-46df-9b4e-a7f4b6e1c3ec": {
+    "deal": {
+      "ids": [
+        "be8fcb49-6d92-4f42-bf47-f87b87b35ca6",
+        "56486494-73de-4539-a7aa-8f0c34b29052",
+        "f9a2bae8-6196-4e80-8d67-b96572ab4b57"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+      "relation_type": "has_one"
+    }
+  },
+  "3d08c41b-0ffd-4959-b8c6-c235b735eb47": {
+    "deal": {
+      "ids": [
+        "6eaab9d2-66f5-422f-9479-63bdeecdae98"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+      "relation_type": "has_one"
+    }
+  },
+  "3e99a7cb-c84a-4b24-aa79-15d5f438e4c4": {
+    "deal": {
+      "ids": [
+        "cc4a15c3-84a8-40fb-98f5-18376684192a"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "660c84af-b04c-4ea0-a129-e880bb6140cd",
+      "relation_type": "has_one"
+    }
+  },
+  "4106c7c3-90e6-435c-9ece-f7d007a88187": {
+    "deal": {
+      "ids": [
+        "1b8b8efc-0b27-4909-8149-20f7647cb4a6"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "660c84af-b04c-4ea0-a129-e880bb6140cd",
+      "relation_type": "has_one"
+    }
+  },
+  "59987334-b63c-4b19-bd46-976fed76c498": {
+    "deal": {
+      "ids": [
+        "f9a2bae8-6196-4e80-8d67-b96572ab4b57",
+        "fbe3f9c3-a52a-4f02-8154-f66616e04a27",
+        "56486494-73de-4539-a7aa-8f0c34b29052"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+      "relation_type": "has_one"
+    }
+  },
+  "73173357-1448-478f-beb4-ad710e506497": {
+    "deal": {
+      "ids": [
+        "bf451939-6835-455e-9d99-0e19848710d6",
+        "cc4a15c3-84a8-40fb-98f5-18376684192a"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "390809f6-aa42-458d-96a6-f0ff107d594f",
+      "relation_type": "has_one"
+    }
+  },
+  "7eaff6c7-28ec-4b6e-853d-25193f8a1cf7": {
+    "deal": {
+      "ids": [
+        "9db59158-124c-446a-b763-d9d55bab5f02"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+      "relation_type": "has_one"
+    }
+  },
+  "8ce53f38-d693-4733-ad4c-0db232ea6a90": {
+    "deal": {
+      "ids": [
+        "bf692d53-9f4d-4396-8adf-61f8a918030d"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "660c84af-b04c-4ea0-a129-e880bb6140cd",
+      "relation_type": "has_one"
+    }
+  },
+  "9a07adfc-8025-48db-ae5f-d209121523a7": {
+    "deal": {
+      "ids": [
+        "bf692d53-9f4d-4396-8adf-61f8a918030d",
+        "360cd668-81a7-4501-b733-ab613e815e98",
+        "cd643364-72ef-4a6b-a5e6-369d83984d41"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "390809f6-aa42-458d-96a6-f0ff107d594f",
+      "relation_type": "has_one"
+    }
+  },
+  "aaabaf11-deec-4ce5-9bcd-cdd0f0b15142": {
+    "deal": {
+      "ids": [
+        "56486494-73de-4539-a7aa-8f0c34b29052"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "ef03c423-41ab-490a-86e5-8aaeb3cce1a1",
+      "relation_type": "has_one"
+    }
+  },
+  "b29257db-c965-4be7-9724-c27dc2a93578": {
+    "deal": {
+      "ids": [
+        "be8fcb49-6d92-4f42-bf47-f87b87b35ca6",
+        "1b8b8efc-0b27-4909-8149-20f7647cb4a6"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "390809f6-aa42-458d-96a6-f0ff107d594f",
+      "relation_type": "has_one"
+    }
+  },
+  "b39bd125-6db8-41b9-ae60-2c9891cecca3": {
+    "deal": {
+      "ids": [
+        "bf451939-6835-455e-9d99-0e19848710d6"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "660c84af-b04c-4ea0-a129-e880bb6140cd",
+      "relation_type": "has_one"
+    }
+  },
+  "b63f0c54-4eb4-4db8-a39e-8d7ddf9a02cc": {
+    "deal": {
+      "ids": [
+        "9db59158-124c-446a-b763-d9d55bab5f02",
+        "c652063d-355b-4d6d-9656-485129730b23",
+        "bf451939-6835-455e-9d99-0e19848710d6"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "660c84af-b04c-4ea0-a129-e880bb6140cd",
+      "relation_type": "has_one"
+    }
+  },
+  "bcf7d9a5-f82c-4f77-840f-1a9ed0f47c09": {
+    "deal": {
+      "ids": [
+        "360cd668-81a7-4501-b733-ab613e815e98",
+        "56486494-73de-4539-a7aa-8f0c34b29052"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "390809f6-aa42-458d-96a6-f0ff107d594f",
+      "relation_type": "has_one"
+    }
+  },
+  "c5db1937-f0bb-4486-a90a-e8bfa3da14b4": {
+    "deal": {
+      "ids": [
+        "cd643364-72ef-4a6b-a5e6-369d83984d41"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "390809f6-aa42-458d-96a6-f0ff107d594f",
+      "relation_type": "has_one"
+    }
+  },
+  "cb0f3761-2981-4337-b23b-13c908ce4d02": {
+    "deal": {
+      "ids": [
+        "56486494-73de-4539-a7aa-8f0c34b29052"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "660c84af-b04c-4ea0-a129-e880bb6140cd",
+      "relation_type": "has_one"
+    }
+  },
+  "d205ef0c-b8a0-4afd-a9ec-1672cc63a1ad": {
+    "deal": {
+      "ids": [
+        "3eb938d0-fe91-41a3-98df-ef4d227c3f42",
+        "3fdc9907-6052-42ab-8634-5a7605d3d8ef",
+        "6eaab9d2-66f5-422f-9479-63bdeecdae98"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "660c84af-b04c-4ea0-a129-e880bb6140cd",
+      "relation_type": "has_one"
+    }
+  },
+  "db257811-e47b-449a-af16-9984e2e047b3": {
+    "deal": {
+      "ids": [
+        "f9a2bae8-6196-4e80-8d67-b96572ab4b57"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "c270ab50-a433-46f9-bcad-b91bd23a099d",
+      "relation_type": "has_one"
+    }
+  },
+  "ddcdef03-41d0-4ec6-8dbd-7f709d650155": {
+    "deal": {
+      "ids": [
+        "6eaab9d2-66f5-422f-9479-63bdeecdae98",
+        "3fdc9907-6052-42ab-8634-5a7605d3d8ef",
+        "d9f6d7c9-195b-40b8-9102-16951b8ba962"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+      "relation_type": "has_one"
+    }
+  },
+  "dff0cefe-9c37-4166-aaeb-1746539bfb17": {
+    "deal": {
+      "ids": [
+        "f9a2bae8-6196-4e80-8d67-b96572ab4b57",
+        "3fdc9907-6052-42ab-8634-5a7605d3d8ef"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "c270ab50-a433-46f9-bcad-b91bd23a099d",
+      "relation_type": "has_one"
+    }
+  },
+  "e3154f70-e481-4265-9db8-d82be0631829": {
+    "deal": {
+      "ids": [
+        "be8fcb49-6d92-4f42-bf47-f87b87b35ca6"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "45c4e887-cc8b-44b9-8d4e-13183164fd09",
+      "relation_type": "has_one"
+    }
+  },
+  "e362daf0-42da-4e4c-a199-ed9362ead6c5": {
+    "deal": {
+      "ids": [
+        "cc4a15c3-84a8-40fb-98f5-18376684192a",
+        "cd643364-72ef-4a6b-a5e6-369d83984d41",
+        "c652063d-355b-4d6d-9656-485129730b23"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "390809f6-aa42-458d-96a6-f0ff107d594f",
+      "relation_type": "has_one"
+    }
+  },
+  "e5458aa2-ca16-4f30-b57e-d70139557535": {
+    "deal": {
+      "ids": [
+        "bf692d53-9f4d-4396-8adf-61f8a918030d",
+        "3eb938d0-fe91-41a3-98df-ef4d227c3f42"
+      ],
+      "relation_type": "has_many"
+    },
+    "organization": {
+      "id": "c270ab50-a433-46f9-bcad-b91bd23a099d",
+      "relation_type": "has_one"
+    }
+  }
+}

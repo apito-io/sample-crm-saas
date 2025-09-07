@@ -1,0 +1,16 @@
+# Apito Engine specific
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies (if adding build tools)
+node_modules/
+*.tmp
+*.temp

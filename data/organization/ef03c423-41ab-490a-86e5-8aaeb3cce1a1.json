@@ -1,0 +1,10 @@
+{
+  "_id": "ef03c423-41ab-490a-86e5-8aaeb3cce1a1",
+  "industry": "Technology",
+  "name": "Test organization",
+  "settings": {
+    "currency": "USD",
+    "timezone": "UTC"
+  },
+  "system_dashboard_id": "Sample system_dashboard_id for organization"
+}

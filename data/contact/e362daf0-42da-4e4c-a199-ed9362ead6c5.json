@@ -1,0 +1,22 @@
+{
+  "_id": "e362daf0-42da-4e4c-a199-ed9362ead6c5",
+  "company": "Sample company for contact",
+  "custom_fields": [
+    {
+      "_id": "Sample _id for array",
+      "field_name": "Sample field_name for array",
+      "field_value": "Sample field_value for array"
+    },
+    {
+      "_id": "Sample _id for array",
+      "field_name": "Sample field_name for array",
+      "field_value": "Sample field_value for array"
+    }
+  ],
+  "email": "sample@demo.org",
+  "first_name": "Sample first_name for contact",
+  "last_name": "Sample last_name for contact",
+  "lead_source": "Social Media",
+  "phone": "Sample phone for contact",
+  "status": "Customer"
+}

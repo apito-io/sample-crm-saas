@@ -1,0 +1,10 @@
+{
+  "_id": "c270ab50-a433-46f9-bcad-b91bd23a099d",
+  "industry": "Retail",
+  "name": "organization Name",
+  "settings": {
+    "currency": "USD",
+    "timezone": "EST"
+  },
+  "system_dashboard_id": "Sample system_dashboard_id for organization"
+}

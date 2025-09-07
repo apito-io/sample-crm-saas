@@ -1,0 +1,82 @@
+{
+  "390809f6-aa42-458d-96a6-f0ff107d594f": {
+    "contact": {
+      "ids": [
+        "b63f0c54-4eb4-4db8-a39e-8d7ddf9a02cc"
+      ],
+      "relation_type": "has_many"
+    },
+    "deal": {
+      "ids": [
+        "cc4a15c3-84a8-40fb-98f5-18376684192a",
+        "d9f6d7c9-195b-40b8-9102-16951b8ba962"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "45c4e887-cc8b-44b9-8d4e-13183164fd09": {
+    "contact": {
+      "ids": [
+        "59987334-b63c-4b19-bd46-976fed76c498"
+      ],
+      "relation_type": "has_many"
+    },
+    "deal": {
+      "ids": [
+        "6eaab9d2-66f5-422f-9479-63bdeecdae98",
+        "be8fcb49-6d92-4f42-bf47-f87b87b35ca6"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "660c84af-b04c-4ea0-a129-e880bb6140cd": {
+    "contact": {
+      "ids": [
+        "aaabaf11-deec-4ce5-9bcd-cdd0f0b15142",
+        "e362daf0-42da-4e4c-a199-ed9362ead6c5"
+      ],
+      "relation_type": "has_many"
+    },
+    "deal": {
+      "ids": [
+        "6eaab9d2-66f5-422f-9479-63bdeecdae98",
+        "1b8b8efc-0b27-4909-8149-20f7647cb4a6",
+        "c652063d-355b-4d6d-9656-485129730b23"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "c270ab50-a433-46f9-bcad-b91bd23a099d": {
+    "contact": {
+      "ids": [
+        "022a59c4-cfde-41e0-b325-88b95c8f3cfd",
+        "ddcdef03-41d0-4ec6-8dbd-7f709d650155"
+      ],
+      "relation_type": "has_many"
+    },
+    "deal": {
+      "ids": [
+        "96acec3e-af9a-4a39-a5a2-9ec34a1f6fe8",
+        "c652063d-355b-4d6d-9656-485129730b23"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "ef03c423-41ab-490a-86e5-8aaeb3cce1a1": {
+    "contact": {
+      "ids": [
+        "8ce53f38-d693-4733-ad4c-0db232ea6a90",
+        "3e99a7cb-c84a-4b24-aa79-15d5f438e4c4",
+        "e3154f70-e481-4265-9db8-d82be0631829"
+      ],
+      "relation_type": "has_many"
+    },
+    "deal": {
+      "ids": [
+        "d9f6d7c9-195b-40b8-9102-16951b8ba962",
+        "c01c8a67-fa9a-42e6-a6cd-4f56f97e4106"
+      ],
+      "relation_type": "has_many"
+    }
+  }
+}

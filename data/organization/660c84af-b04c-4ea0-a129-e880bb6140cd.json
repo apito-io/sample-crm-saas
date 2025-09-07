@@ -1,0 +1,10 @@
+{
+  "_id": "660c84af-b04c-4ea0-a129-e880bb6140cd",
+  "industry": "Technology",
+  "name": "Sample organization",
+  "settings": {
+    "currency": "USD",
+    "timezone": "PST"
+  },
+  "system_dashboard_id": "Sample system_dashboard_id for organization"
+}

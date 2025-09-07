@@ -1,0 +1,17 @@
+{
+  "_id": "e3154f70-e481-4265-9db8-d82be0631829",
+  "company": "Sample company for contact",
+  "custom_fields": [
+    {
+      "_id": "Sample _id for array",
+      "field_name": "Sample field_name for array",
+      "field_value": "Sample field_value for array"
+    }
+  ],
+  "email": "test@example.com",
+  "first_name": "Sample first_name for contact",
+  "last_name": "Sample last_name for contact",
+  "lead_source": "Social Media",
+  "phone": "Sample phone for contact",
+  "status": "Lead"
+}

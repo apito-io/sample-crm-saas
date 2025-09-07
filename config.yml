@@ -1,0 +1,66 @@
+# Apito Engine Sample Project Configuration
+# Repository: https://github.com/apito-io/sample-crm-saas
+
+name: "CRM SaaS"
+slug: "sample-crm-saas"
+description: "A complete Customer Relationship Management SaaS platform with multi-tenant organization support"
+project_type: "saas" # general | saas
+tenant_model: "organization"
+version: "1.0.0"
+
+# Repository Information
+repository:
+  url: "https://github.com/apito-io/sample-crm-saas"
+  organization: "apito-io"
+  assets:
+    cover_image: "https://images.unsplash.com/photo-1553484771-371a605b060b?w=800"
+    icon: "🏢"
+    logo: ""
+
+# Schema Information
+schema:
+  models_count: 8
+  relationships_count: 12
+
+# Demo Data
+data:
+  sample_organizations: 3
+  sample_customers: 25
+  sample_contacts: 50
+  sample_deals: 15
+  sample_activities: 100
+
+# Project Metadata
+metadata:
+  category: "Business Management"
+  difficulty: "Advanced"
+  tags:
+    - "crm"
+    - "saas"
+    - "customer-management"
+    - "sales"
+    - "multi-tenant"
+    - "organization"
+    - "business"
+  keywords:
+    - "customer relationship management"
+    - "saas platform"
+    - "multi-tenant crm"
+    - "sales management"
+    - "customer tracking"
+    - "organization management"
+    - "business automation"
+  use_cases:
+    - "B2B CRM platform"
+    - "Sales team management"
+    - "Customer support system"
+    - "Multi-company CRM"
+    - "Enterprise customer management"
+  key_features:
+    - "Multi-tenant architecture"
+    - "Organization management"
+    - "Customer profiles"
+    - "Contact management"
+    - "Deal tracking"
+    - "Activity logging"
+    - "User permissions"
