@@ -1,0 +1,79 @@
+# Apito Engine Sample Project Configuration
+# Repository: https://github.com/apito-io/sample-crm-saas
+
+name: "CRM SaaS"
+slug: "sample-crm-saas"
+description: "A complete Customer Relationship Management SaaS platform with multi-tenant organization support"
+project_type: "saas" # general | saas
+tenant_model: "organization"
+version: "1.0.0"
+
+# Repository Information
+repository:
+  url: "https://github.com/apito-io/sample-crm-saas"
+  organization: "apito-io"
+  assets:
+    cover_image: "https://images.unsplash.com/photo-1553484771-371a605b060b?w=800"
+    icon: "🏢"
+    logo: ""
+
+# Schema Information
+schema:
+  models_count: 3
+  relationships_count: 4
+
+# Demo Data
+data:
+  folder_structure: "data/"
+  total_files: 58
+  models:
+    organization:
+      count: 5
+      folder: "data/organization/"
+      relation_format: "has_many: ids (array)"
+    contact:
+      count: 30
+      folder: "data/contact/"
+      relation_format: "has_one: id (string), has_many: ids (array)"
+    deal:
+      count: 20
+      folder: "data/deal/"
+      relation_format: "has_one: id (string)"
+  relation_files: 3
+  uuid_based_filenames: true
+
+# Project Metadata
+metadata:
+  category: "Customer Relationship Management"
+  difficulty: "Intermediate"
+  tags:
+    - "crm"
+    - "saas"
+    - "customer-management"
+    - "sales"
+    - "multi-tenant"
+    - "organization"
+    - "business"
+  keywords:
+    - "customer relationship management"
+    - "saas platform"
+    - "multi-tenant crm"
+    - "sales management"
+    - "customer tracking"
+    - "organization management"
+    - "business automation"
+  use_cases:
+    - "B2B CRM platform"
+    - "Sales team management"
+    - "Customer support system"
+    - "Multi-company CRM"
+    - "Enterprise customer management"
+  key_features:
+    - "Multi-tenant architecture"
+    - "Organization-based data isolation"
+    - "Customer contact management"
+    - "Deal pipeline tracking"
+    - "SaaS infrastructure"
+    - "Complete sample data with relationships"
+    - "UUID-based data files"
+    - "Relationship mapping with relation.json files"
