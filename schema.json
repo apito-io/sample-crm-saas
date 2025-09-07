@@ -1,0 +1,333 @@
+{
+  "id": "crm_saas",
+  "name": "CRM SaaS",
+  "description": "Customer Relationship Management SaaS Platform",
+  "schema": {
+    "models": [
+      {
+        "name": "organization",
+        "fields": [
+          {
+            "identifier": "system_dashboard_id",
+            "description": "An Auto Generated Relation Identifier for Easy Filter Purposes",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "hide": true, "unique": true },
+            "serial": 1,
+            "label": "System Dashboard ID",
+            "system_generated": true
+          },
+          {
+            "identifier": "name",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true },
+            "serial": 2,
+            "label": "Organization Name"
+          },
+          {
+            "identifier": "industry",
+            "input_type": "string",
+            "field_type": "list",
+            "validation": {
+              "fixed_list_elements": [
+                "Technology",
+                "Healthcare",
+                "Finance",
+                "Education",
+                "Retail",
+                "Manufacturing"
+              ]
+            },
+            "serial": 3,
+            "label": "Industry"
+          },
+          {
+            "identifier": "settings",
+            "input_type": "object",
+            "field_type": "object",
+            "sub_field_info": [
+              {
+                "identifier": "timezone",
+                "input_type": "string",
+                "field_type": "list",
+                "validation": {
+                  "fixed_list_elements": ["UTC", "EST", "PST", "GMT"]
+                },
+                "serial": 1,
+                "label": "Timezone",
+                "parent_field": "settings"
+              },
+              {
+                "identifier": "currency",
+                "input_type": "string",
+                "field_type": "list",
+                "validation": {
+                  "fixed_list_elements": ["USD", "EUR", "GBP", "CAD"]
+                },
+                "serial": 2,
+                "label": "Currency",
+                "parent_field": "settings"
+              }
+            ],
+            "validation": {},
+            "serial": 4,
+            "label": "Organization Settings"
+          }
+        ],
+        "connections": [
+          {
+            "model": "contact",
+            "relation": "has_many",
+            "type": "backward"
+          },
+          {
+            "model": "deal",
+            "relation": "has_many",
+            "type": "backward"
+          }
+        ],
+        "has_connections": true
+      },
+      {
+        "name": "contact",
+        "fields": [
+          {
+            "identifier": "first_name",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true },
+            "serial": 1,
+            "label": "First Name"
+          },
+          {
+            "identifier": "last_name",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true },
+            "serial": 2,
+            "label": "Last Name"
+          },
+          {
+            "identifier": "email",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true },
+            "serial": 3,
+            "label": "Email"
+          },
+          {
+            "identifier": "phone",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": {},
+            "serial": 4,
+            "label": "Phone"
+          },
+          {
+            "identifier": "company",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": {},
+            "serial": 5,
+            "label": "Company"
+          },
+          {
+            "identifier": "lead_source",
+            "input_type": "string",
+            "field_type": "list",
+            "validation": {
+              "fixed_list_elements": [
+                "Website",
+                "Referral",
+                "Social Media",
+                "Cold Call",
+                "Email Campaign"
+              ]
+            },
+            "serial": 6,
+            "label": "Lead Source"
+          },
+          {
+            "identifier": "status",
+            "input_type": "string",
+            "field_type": "list",
+            "validation": {
+              "fixed_list_elements": [
+                "Lead",
+                "Qualified",
+                "Customer",
+                "Inactive"
+              ]
+            },
+            "serial": 7,
+            "label": "Status"
+          },
+          {
+            "identifier": "custom_fields",
+            "input_type": "repeated",
+            "field_type": "repeated",
+            "sub_field_info": [
+              {
+                "identifier": "_id",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "hide": true, "unique": true },
+                "serial": 1,
+                "label": "ID",
+                "system_generated": true,
+                "parent_field": "custom_fields"
+              },
+              {
+                "identifier": "field_name",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "required": true },
+                "serial": 2,
+                "label": "Field Name",
+                "parent_field": "custom_fields"
+              },
+              {
+                "identifier": "field_value",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "required": true },
+                "serial": 3,
+                "label": "Field Value",
+                "parent_field": "custom_fields"
+              }
+            ],
+            "validation": {},
+            "serial": 8,
+            "label": "Custom Fields"
+          }
+        ],
+        "connections": [
+          {
+            "model": "organization",
+            "relation": "has_one",
+            "type": "forward"
+          },
+          {
+            "model": "deal",
+            "relation": "has_many",
+            "type": "backward"
+          }
+        ],
+        "has_connections": true
+      },
+      {
+        "name": "deal",
+        "fields": [
+          {
+            "identifier": "title",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true },
+            "serial": 1,
+            "label": "Deal Title"
+          },
+          {
+            "identifier": "value",
+            "input_type": "double",
+            "field_type": "number",
+            "validation": { "required": true },
+            "serial": 2,
+            "label": "Deal Value"
+          },
+          {
+            "identifier": "stage",
+            "input_type": "string",
+            "field_type": "list",
+            "validation": {
+              "fixed_list_elements": [
+                "Prospecting",
+                "Qualification",
+                "Proposal",
+                "Negotiation",
+                "Closed Won",
+                "Closed Lost"
+              ]
+            },
+            "serial": 3,
+            "label": "Stage"
+          },
+          {
+            "identifier": "expected_close_date",
+            "input_type": "string",
+            "field_type": "date",
+            "validation": {},
+            "serial": 4,
+            "label": "Expected Close Date"
+          },
+          {
+            "identifier": "probability",
+            "input_type": "int",
+            "field_type": "number",
+            "validation": {},
+            "serial": 5,
+            "label": "Probability (%)"
+          }
+        ],
+        "connections": [
+          {
+            "model": "organization",
+            "relation": "has_one",
+            "type": "forward"
+          },
+          {
+            "model": "contact",
+            "relation": "has_one",
+            "type": "forward"
+          }
+        ],
+        "has_connections": true
+      }
+    ]
+  },
+  "project_type": 1,
+  "project_secret_key": "CRM_SECRET_KEY_123456",
+  "tenant_model_name": "organization",
+  "per_tenant_separate_database": false,
+  "settings": {
+    "locals": ["en"]
+  },
+  "roles": {
+    "admin": {
+      "system_generated": true,
+      "is_admin": true
+    },
+    "manager": {
+      "api_permissions": {
+        "contact": {
+          "read": "all",
+          "create": "all",
+          "update": "all",
+          "delete": "all"
+        },
+        "deal": {
+          "read": "all",
+          "create": "all",
+          "update": "all",
+          "delete": "all"
+        }
+      }
+    },
+    "sales_rep": {
+      "api_permissions": {
+        "contact": {
+          "read": "all",
+          "create": "all",
+          "update": "own",
+          "delete": "none"
+        },
+        "deal": {
+          "read": "all",
+          "create": "all",
+          "update": "own",
+          "delete": "none"
+        }
+      }
+    }
+  }
+}
